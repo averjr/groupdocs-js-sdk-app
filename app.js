@@ -28,8 +28,6 @@
         $target.find('.jqueryFileTree').append(folderList);
         $target.find('.jqueryFileTree').append(fileList);
 
-        $target.slideDown(500);
-
         bindEvents($target);
     };
 
