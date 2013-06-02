@@ -32,11 +32,11 @@
     };
 
     var bindEvents = function($target) {
-        $target.find('LI A').bind('click', function(){
+        $target.find('li a').bind('click', function(){
             if( $(this).parent().hasClass('directory') ) {
                 if( $(this).parent().hasClass('collapsed') ) {
                     // Expand
-                    $(this).parent().find('UL').remove(); // cleanup
+                    $(this).parent().find('ul').remove(); // cleanup
 
                     getStructure( $(this).parent(), $(this).attr('rel') );
                     $(this).parent().removeClass('collapsed').addClass('expanded');
