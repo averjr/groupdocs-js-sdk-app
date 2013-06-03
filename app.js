@@ -1,7 +1,8 @@
 (function() {
     groupdocs.utils.DEBUG = false;
-    var clientId = "80716f88c4e8625e";
-    var apiKey = "b72f43ff3d89b9253654e7df50731ca5";
+    //please, contact me for clientId and apiKey
+    var clientId = "";
+    var apiKey = "";
 
     var aClient = new groupdocs.ApiClient(new groupdocs.GroupDocsSecurityHandler(apiKey));
     var api = new groupdocs.StorageApi(aClient, "https://dev-api.groupdocs.com/v2.0");
