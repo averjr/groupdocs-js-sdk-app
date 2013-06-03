@@ -1,6 +1,6 @@
 (function() {
     groupdocs.utils.DEBUG = false;
-    //please, contact me for clientId and apiKey
+    //please, contact me for clientId and apiKey or use your own
     var clientId = "";
     var apiKey = "";
 
